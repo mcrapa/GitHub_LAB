@@ -1,0 +1,6 @@
+¿Puedo renombrar un repositorio sin tener conflictos con la carpeta locale donde lo tengo clonado?
+---------------------------------------------------------------------------------------------------
+Si, puede renombrar repositorios sin problemas. Si bien he probado de renombrarlo desde la plataforma de GitHub sin hacerlo en mi carpeta local,
+se recomienda tambien hacerlo en la carpeta local y mantener el mismo nombre que tiene en la plataforma. El proceso es sencillo:
+
+Entrar al repositorio en la plataforma de gitHub > Settings > Cambiar el nombre al repositorio > Click en Rename

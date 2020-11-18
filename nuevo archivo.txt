@@ -1,1 +1,0 @@
-Archivo creado luego de renombrar el repositorio en GitHub pero no en directorio local
