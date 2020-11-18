@@ -79,5 +79,3 @@ Password for 'https://<username>@github.com':
 > Enter
 
 > Ingreso a GitHub, refresco el repositorio y compruebao que se haya añadido el archivo y los cambios realizados.
-
-
