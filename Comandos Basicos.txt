@@ -1,0 +1,83 @@
+ -------------------------------------
+|        Resumen de Commandos         |
+ -------------------------------------
+$ git clone
+$ git status
+$ git diff
+$ git add
+$ git commit
+$ git push
+
+
+--------------------------------------
+|          EJEMPLOS DE USO            |
+--------------------------------------
+
+Crear Repositorio en GitHub
+----------------------------
+> Entro a GitHub https://github.com/ y me logueo
+> Icono + > New repository
+> Ingreso nombre de repositorio y descripcion > Selecciono Publico (gratis) o Privado (Pago) > Es de buena practica agregar un README file, una licencia (normalmente GNU) y un archivo .gitignore
+> Create Repository
+
+
+Clonar repositorio 
+------------------
+> Entro al repositorio que deseo clonar
+
+Opcion 1:
+> Clickeo en Code > Download ZIP
+
+Opcion 2:
+> Clickero en Code > Copio la URL
+> Desde la terminal (linux) o el cmd (windows) me situo en el directorio donde quiero que se clone el repositorio
+> Teniendo la URL en Clipboard ingreso:
+  $ git clone <URL>  
+
+
+Comprobar el "Estado" del repositorio y Agregar cambios al "Staging Area"
+-------------------------------------------------------------------------
+Si luego de clonar el repositorio en una carpeta local de mi maquina, agregue algun archivo 
+puedo comprobar este cambio en el repositorio e incluir el cambio en lo que luego confirmare cuando haga un commit
+Esto solo lo incluye en el "staging area"
+
+> Para ver el estado, me situo dentro de la carpeta local del repositorio clonado y compruebo el estado tipeando:
+$ git status
+
+> Agrego el archivo nuevo al "staging area"
+$ git add <archivo nuevo>
+
+> Si vuelvo a verificar el estado:
+$ git status
+...me saldrá un mensaje describiendo los cambios a ser confirmados. En este caso, que se agrego un nuevo archivo al "stage"
+
+
+Chequear "Modificaciones" en archivos existentes, confirmarlos y subirlo a GitHub
+---------------------------------------------------------------------------------
+Para chequear si se realizaron cambios y que tipo de cambios se realizaron en los archivos existentes hago lo siguiente.
+
+> El siguiente comando me devuelve que archivos tuvieron cambios y que lineas se modificaron | Si hay un + es una linea agregada. Si hay un - es una linea eliminada)
+$ git diff
+
+> Agrego todos (.) los cambios al "Staging Area" 
+$ git add . 
+
+> Confirmo los cambios con "Commit"
+Opcion 1: sin comentarios
+$ git commit
+
+Opcion 2: agregando un mensaje para el control de versiones
+$ git commit -m "<mensaje>" 
+
+> Subo los cambios confirmados a GitHub con "push"
+$ git push  
+
+> Ingreso los datos de usuario/contrasela de GitHub que me pide para efectuar esta accion:
+Username for 'https://github.com': 
+Password for 'https://<username>@github.com':  
+
+> Enter
+
+> Ingreso a GitHub, refresco el repositorio y compruebao que se haya añadido el archivo y los cambios realizados.
+
+
