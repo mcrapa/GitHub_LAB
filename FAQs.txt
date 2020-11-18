@@ -1,5 +1,54 @@
-¿Puedo renombrar un repositorio sin tener conflictos con la carpeta locale donde lo tengo clonado?
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+PREGUNTA 1: ¿Qué es GitHub?
+---------------------------------------------------------------------------------------------------------------
+Inicialmente, era una plataforma web que actuaba de repositorio donde se podia alojar codigo y proyectos y facilitar el trabajo colaborativo usando sistema de control 
+de versiones Git.
+Hoy en dia, es una red social para desarrolladores donde cada uno tiene un perfil donde detalla información profesional, sube sus proyectos Open Source y 
+puede seguir la actividad de otros desarrolladores y proyectos. Muchas veces hace de curriculum para poder presentar proyectos que uno hizo o esta llevando a cabo.
+
+---------------------------------------------------------------------------------------------------------------
+PREGUNTA 2: ¿Para que se usa?
+---------------------------------------------------------------------------------------------------------------
+Se usa como repositorio de proyectos Publicos (gratis) y privados (pagos) pero tambien para
+Descargar codigo open source
+Facilitar el trabajo colaborativo entre programadores
+Gestionar versiones de codigo
+Gestionar ﻿proyectos
+Tambien se puede vincular con herramientas de CI/CD
+
+---------------------------------------------------------------------------------------------------------------
+PREGUNTA 3: ¿Cuál es la diferencia entre Git / GitHub / GitLab?
+---------------------------------------------------------------------------------------------------------------
+"Git" es un programa de control de versiones local para desarrolladores que permite guardar versiones de archivos a lo largo de diferentes etapas 
+de un proyecto y hacer referencias a antiguas versiones si se desea revertir cambios. Cada vez que se modifica un proyecto se crea una nueva instantánea. 
+https://bit.ly/35Haeyt
+﻿﻿
+"GitHub" en cambio, es una plataforma web (Propiedad de Microsoft) con un repositorio en la nube que permite el trabajo colaborativo y el control de versiones usando 
+commandos git desde maquinas locales y remotas. Tiene herramientas adicionales que permiten asignar tareas a individuos o grupos, establecer permisos y roles para los 
+colaboradores, clonar repositorios para alojarlos en carpetas locales o descargarlos en archivos comprimidos, hacer bifurcaciones de un proyecto, etc. 
+Salvo que se pague una cuota para repos privados, los repositorios son publicos lo que permite que desarrolladores de todo el mundo puedan interactuar y contribuir 
+al codigo de otros. Para eso hay las siguientes acciones posibles:
+- Fork﻿: es hacer una bifurcacion. Esto significa tomar como fuente un proyecto existente, haciendo una copia exacta de el y partir de ahi para hacerle modificaciones.
+        El fork crea una URL distinta aparte. Por lo tanto, los cambios que se hagan en el repositorio original no se transmiten automaticamente sus ramificaciones 
+        y tampoco sucede a la inversa.
+- Pull Request: esto permite aportar codigo para un proyecto de codigo abierto. El mecanismo consiste sugerir cambios a un codigo. Es decir, 
+                un desarrollador o grupo de desarrolladores interesados en un codigo de un tercero hacen unos cambios al codigo original y luego hacen un pull request 
+                de manera tal que, los responsables del proyecto original puedan validar e incorporar esos cambios en su propio proyecto si asi creen conveniente. 
+- Merge: Es la accion de fusionar o unir una rama a parte en la que se estuvo trabajando con la rama principal (master)
+
+"GitLab" es similar a GitHub pero son compañías diferentes. Sus productos comparten muchas funciones pero poseen algunas diferencias. Por ejemplo:
+- En la version gratuita, GitHub es algo mas restrictivo en lagunas cosas. Solo permite lectura o escritura sobre un repositorio mientras que GitLab te permite dar 
+  accesso a determinadas partes de un proyecto. 
+- GitHub limita el uso de repositorios privados para uso de hasta 3 desarrolladores, para equipos mas grandes hay que contratar suscripcion
+- GitLab permite incluir ardjuntos en un "issue" o problema
+- GitLab Permite marcar un proyecto como que esta "en desarrollo" para avisar a otros usuarios y evitar que integren tu proyecto antes de tiempo
+- Recientemente ambos admiten repositorios privados con cuentas gratuitas 
+- GitHub no ofrece herramientas de CI propias como GitLab pero es compatible con muchos programas que lo facilitan.
+- GitLab tiene registro de contenedores en el que los usuarios pueden almacenar sus imagenes Docker
+(Ref: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/gitlab-vs-github/)
+---------------------------------------------------------------------------------------------------------------
+PREGUNTA 4: ¿Puedo renombrar un repositorio sin tener conflictos con la carpeta locale donde lo tengo clonado?
+---------------------------------------------------------------------------------------------------------------
 Si, puede renombrar repositorios sin problemas. Si bien he probado de renombrarlo desde la plataforma de GitHub sin hacerlo en mi carpeta local,
 se recomienda tambien hacerlo en la carpeta local y mantener el mismo nombre que tiene en la plataforma. El proceso es sencillo:
 
