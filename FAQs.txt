@@ -46,10 +46,13 @@ al codigo de otros. Para eso hay las siguientes acciones posibles:
 - GitHub no ofrece herramientas de CI propias como GitLab pero es compatible con muchos programas que lo facilitan.
 - GitLab tiene registro de contenedores en el que los usuarios pueden almacenar sus imagenes Docker
 (Ref: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/gitlab-vs-github/)
+
+
 ---------------------------------------------------------------------------------------------------------------
 PREGUNTA 4: ¿Puedo renombrar un repositorio sin tener conflictos con la carpeta locale donde lo tengo clonado?
 ---------------------------------------------------------------------------------------------------------------
-Si, puede renombrar repositorios sin problemas. Si bien he probado de renombrarlo desde la plataforma de GitHub sin hacerlo en mi carpeta local,
-se recomienda tambien hacerlo en la carpeta local y mantener el mismo nombre que tiene en la plataforma. El proceso es sencillo:
+Si, puede renombrar repositorios sin problemas. Si bien he probado de renombrarlo desde la plataforma de GitHub sin hacerlo en mi carpeta local y luego pude 
+subir (push) nuevas modificaciones a gitHub, se recomienda tambien hacerlo en la carpeta local y mantener el mismo nombre que tiene en la plataforma. 
+El proceso es sencillo:
 
 Entrar al repositorio en la plataforma de gitHub > Settings > Cambiar el nombre al repositorio > Click en Rename

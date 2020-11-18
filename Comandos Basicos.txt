@@ -8,6 +8,7 @@ $ git add
 $ git commit
 $ git push
 
+$ git pull
 
 --------------------------------------
 |          EJEMPLOS DE USO            |
@@ -79,3 +80,15 @@ Password for 'https://<username>@github.com':
 > Enter
 
 > Ingreso a GitHub, refresco el repositorio y compruebao que se haya añadido el archivo y los cambios realizados.
+
+
+Traer ultima version de un repositorio "git pull"
+-------------------------------------------------
+Normalmente, cuando se quiere retomar el trabajo sobre un repositorio ya descargado previamente se utiliza "git pull".
+El comando "git pull" se emplea para traer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar los cambios
+y comenzar a trabajar sobre contenido actualizado.
+
+> Si deseamos actualizar el repositorio local con el contenido de la rama original tipeamos:
+$ git pull origin
+
+o bien simplemente $ git pull 
