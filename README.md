@@ -1,4 +1,4 @@
-# GitHub_LAB
+# GitHub_LAB (No terminado)
 Este repositorio es de prueba y tiene un fin educativo para experimentar el uso de commandos Git y de la plataforma GitHub.
 Incluye:
 - Archivo de Comandos Basicos (Comandos Basicos.txt)
